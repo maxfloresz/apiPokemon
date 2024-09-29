@@ -1,0 +1,26 @@
+.conteiner-l{
+    display: grid;
+    grid-template:
+        "header" 15vh
+        "sidebar" 5vh
+        "section" auto
+        "footer" 10vh;
+        
+    .header{
+        grid-area: header;
+        background-color: aqua;
+    }
+    .sidebar{
+        grid-area: sidebar;
+        background-color: blueviolet;
+    }
+    .section{
+        grid-area: section;
+        background-color: brown;
+    }
+    .footer{
+        
+        grid-area: footer;
+        background-color: chartreuse;
+    }
+}
